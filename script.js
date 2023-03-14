@@ -19,7 +19,7 @@ const menu2 = "Selecciona una opción de simulación\n1 - Método Alemán\n2 - M
 let cantidadDineroPrestamo = Number(prompt("Ingresa el valor de la compra realizada con la tarjeta de crédito: $"))
 let plazo = Number(prompt("Ingrese el número de cuotas"))
 let tasa = Number(prompt("Ingresa el % de la tasa de interes.\nDebe ser tasa mensual"))
-tasa = tasa / 100
+tasa = tasa / 10
 let opcion;
 
 alert(menu1)
