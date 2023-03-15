@@ -15,9 +15,6 @@ function abonoCapital (cuota, interes){
 function imprimirResultado (numero, cuota, interes, abono, saldo){
     alert("Cuota N°: " + numero + " --- Valor Cuota: $" + cuota.toFixed(2) + " --- Interés: $" + interes.toFixed(2) + " --- Abono: $" + abono.toFixed(2) + " --- Saldo: $" + saldo.toFixed(2))
 }
-// function imprimirResultado (numero, cuota, interes, abono, saldo){
-//     alert("Cuota N°: " + numero + "\nValor Cuota: $" + cuota.toFixed(2) + "\nInterés: $" + interes.toFixed(2) + "\nAbono: $" + abono.toFixed(2) + "\nSaldo: $" + saldo.toFixed(2))
-// }
 function imprimirResumen (deuda, totalInteres, totalParaPagar){
     alert("Valor préstamo: $" + deuda.toFixed(2) + "\nTotal Intereses: $" + totalInteres.toFixed(2) + "\nTotal a pagar: $" + totalParaPagar.toFixed(2))
 }
